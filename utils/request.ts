@@ -1,5 +1,8 @@
 import axios, { AxiosInstance, AxiosError, AxiosResponse, InternalAxiosRequestConfig } from 'axios';
 
+const host: string = "https://ai.leheavengame.com";
+console.log(host)
+
 const service: AxiosInstance = axios.create({
     baseURL: '/api',
     timeout: 5000
